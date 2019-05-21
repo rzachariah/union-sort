@@ -3,6 +3,9 @@ const chai = require('chai');
 var expect = chai.expect;
 const unionSort = require('../lib/union-sort');
 describe('unionSort', function() {
+    it('should return empty list when input lists are empty', function() {
+        expect(_.isEqual(unionSort([],[]), [])).to.be.true;
+    });
     it('should return first list when second list is empty', function() {
         expect(_.isEqual(unionSort([1,2,3],[]), [1,2,3])).to.be.true;
     });
