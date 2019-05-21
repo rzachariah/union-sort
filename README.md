@@ -3,15 +3,15 @@ Produce an array that is the sorted deduped union of two sorted arrays
 
 ## Install packages
 ```
-yarn
+npm install
 ```
 
 ## Run unit tests
 ```
-yarn test
+npm test
 ```
 
 ## Run example
 ```
-yarn start
+npm start
 ```
