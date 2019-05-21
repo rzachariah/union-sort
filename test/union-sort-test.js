@@ -30,6 +30,6 @@ describe('unionSort', function() {
         expect(unionSort([1,3,5],[2,4,6,6,6])).to.eql([1,2,3,4,5,6]);
     });
     it('should return sorted union without duplicates on partially overlapping input', function() {
-        expect(unionSort([1,3,5],[2,4,5,6,8,10])).to.eql([1,2,3,4,5,6,8,10]);
+        expect(unionSort([1,3,5],[2,3,4,5,6,8,10])).to.eql([1,2,3,4,5,6,8,10]);
     });
 });
