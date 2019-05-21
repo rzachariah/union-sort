@@ -1,4 +1,3 @@
-const _ = require('lodash');
 const chai = require('chai');
 var expect = chai.expect;
 const unionSort = require('../lib/union-sort');
