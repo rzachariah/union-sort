@@ -6,7 +6,7 @@ Produce an array that is the sorted deduped union of two sorted arrays
 
 ## Install packages
 ```
-npm install
+yarn
 ```
 
 ## Usage
@@ -24,10 +24,10 @@ console.log('c=unionSort(a,b)', c);
 
 ## Run example
 ```
-npm start
+yarn start
 ```
 
 ## Run unit tests
 ```
-npm test
+yarn test
 ```
